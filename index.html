@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fixed">
+      <h1>Rock Paper Scissors</h1>
+      <div class="choices">
+        <div class="choice" id="rock">
+          <img src="./images/fist.png" alt="Rock" />
+        </div>
+        <div class="choice" id="paper">
+          <img src="./images/open-hand.png" alt="Open-hand" />
+        </div>
+        <div class="choice" id="scissors">
+          <img src="./images/scissors.png" alt="scissors" />
+        </div>
+      </div>
+      <div class="score-board">
+        <div class="score">
+          <p id="user-score">0</p>
+          <p>You</p>
+        </div>
+        <div class="score">
+          <p id="comp-score">0</p>
+          <p>Comp</p>
+        </div>
+      </div>
+      <div class="message-container">
+        <p id="msg">Play your move</p>
+      </div>
+
+      <footer>
+        <div>
+            Icons from
+            <a href="https://www.flaticon.com/" title="Flaticon"
+              >www.flaticon.com</a
+            >
+        </div>
+        <p>Created by @Abhidongre</p>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
